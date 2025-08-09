@@ -1,0 +1,5 @@
+sudo taskset -c 1 cyclictest -m --smp --priority=99 --interval=200
+# /dev/cpu_dma_latency set to 0us
+policy: fifo: loadavg: 3.10 3.66 4.79 2/674 6498            
+
+T: 0 ( 3186) P:99 I:200 C:435323964 Min:     15 Act:   38 Avg:   23 Max:     190

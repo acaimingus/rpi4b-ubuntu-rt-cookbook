@@ -1,0 +1,11 @@
+sudo stress-ng --cpu 3 --cpu-load 100 --taskset 0,2,3 --all 4
+stress-ng: info:  [3203] defaulting to a 1 day, 0 secs run per stressor
+stress-ng: info:  [3203] dispatching hogs: 3 cpu
+stress-ng: info:  [3204] cpu: for stable load results, select a specific cpu stress method with --cpu-method other than 'all'
+stress-ng: info:  [3205] cpu: for stable load results, select a specific cpu stress method with --cpu-method other than 'all'
+stress-ng: info:  [3206] cpu: for stable load results, select a specific cpu stress method with --cpu-method other than 'all'
+stress-ng: info:  [3203] skipped: 0
+stress-ng: info:  [3203] passed: 3: cpu (3)
+stress-ng: info:  [3203] failed: 0
+stress-ng: info:  [3203] metrics untrustworthy: 0
+stress-ng: info:  [3203] successful run completed in 1 day, 0.11 secs
